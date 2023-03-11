@@ -9,3 +9,4 @@ dir_path = "D:/"
 file_name ="stock_data.xlsx"
 em.insert_data(db,dir_path,file_name)
 
+em.excelrun()

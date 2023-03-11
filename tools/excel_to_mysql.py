@@ -73,7 +73,7 @@ def insert_data(conn,dir_path,file_name):
         cursor.executemany(insert_sql, insert_datas)
         db.commit()
 
-    db.close()
+
 
 
 def excelrun(conn,dir_path,filename) :
